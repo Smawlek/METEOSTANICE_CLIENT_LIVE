@@ -18,7 +18,7 @@ const Home = () => {
                         <Dashboard public_tokens={['cbKwZmB1Ez1RA']} />
                     </div>
                 </div>
-            </div>
+            </div> 
 
             <Footer />
         </>
