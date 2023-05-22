@@ -20,7 +20,7 @@ import Axios from 'axios';
 const source = Axios.CancelToken.source();
 const config = { cancelToken: source.token };
 // Konstanty
-const SERVER_BASE_URL = /*"http://localhost:4000" */"https://testing-heroku-dobest.herokuapp.com";
+let SERVER_BASE_URL = /*"http://localhost:4000" */"https://testing-heroku-dobest.herokuapp.com";
 // Ostatní proměnné
 let setFilters = {
     start: moment(Date.now()).subtract(1, 'days').format('YYYY-MM-DD'),
